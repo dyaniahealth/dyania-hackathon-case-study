@@ -1,4 +1,4 @@
-# Dyania Health Hackathon 2025 — Team Submission Repository
+# Dyania Health Hackathon 2026 — Team Submission Repository
 
 **Challenge:** Early patient risk detection — Using ML to identify liver disease (MASH) in patients with compounding metabolic conditions (CKM)  
 **Event:** May 27–28, 2025 (36 hours)  
