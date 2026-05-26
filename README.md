@@ -29,14 +29,18 @@
 
 ## Getting Started
 
-### 1. Clone the repository
+### 1. Fork this repository
+
+Go to **[https://github.com/dyania-health/dyania-hackathon-case-study](https://github.com/dyania-health/dyania-hackathon-case-study)** and click **Fork** (top-right) to create a copy under your own GitHub account.
+
+### 2. Clone your fork
 
 ```bash
-git clone https://github.com/dyania-health/dyania-hackathon-case-study.git
+git clone https://github.com/<your-username>/dyania-hackathon-case-study.git
 cd dyania-hackathon-case-study
 ```
 
-### 2. Create your team branch
+### 3. Create your team branch
 
 Branch names must follow this format: `team/<your-team-name>` (lowercase, hyphens for spaces).
 
@@ -46,7 +50,7 @@ git checkout -b team/your-team-name
 
 Examples: `team/panathinea`, `team/liver-hawks`, `team/ckm-busters`
 
-### 3. Work on your branch
+### 4. Work on your branch
 
 Edit the template files inside `protocol/`, `ml/`, `data/`, and `presentation/`. Every `> *Fill in:*` block is a placeholder — replace it with your team's content.
 
@@ -56,15 +60,21 @@ git add .
 git commit -m "your message"
 ```
 
-### 4. Submit — push your branch before the deadline
+### 5. Submit — open a Pull Request before the deadline
+
+Push your branch to your fork and open a Pull Request to the original repository:
 
 ```bash
 git push origin team/your-team-name
 ```
 
+Then go to your fork on GitHub and click **"Compare & pull request"**.  
+Set the base repository to `dyania-health/dyania-hackathon-case-study` and the base branch to `main`.  
+Title your PR: `Team submission: <your-team-name>`
+
 > **Deadline: May 28, 2025 — before the presentation session.**  
 > Only the last commit pushed before the deadline will be evaluated.  
-> Do **not** open a Pull Request — just push your branch.
+> Make sure your PR is open — **do not** merge it.
 
 ---
 
